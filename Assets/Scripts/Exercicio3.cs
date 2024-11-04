@@ -1,9 +1,14 @@
+using System.Runtime.ConstrainedExecution;
 using UnityEngine;
 
 public class Exercicio3 : MonoBehaviour
 {
     // Exercicio 3
-    // O jogo possui um power-up : revive; Caso ele pegue, revive com 50% da vida; caso não Game over;
+    //(Desafio) Considere que o jogo tem um power-up que revive o
+    //personagem caso ele morra.Caso o jogador morra e tiver
+    //coletado o power-up ele volta a vida com 50% de sua vida total e
+    //deve ser exibido a mensagem "Ainda não, vida atual XX". Caso ele
+    //não tenha coletado o power-up exiba "Game Over".
 
     /*
      Operadores Lógicos
