@@ -1,14 +1,23 @@
 using UnityEngine;
 
+// exercicio 02
+
 public class Exercicio2 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // Ao coletar power-up : Power-Up Coletado!; CAso não seja: Nenhum Power-up Coletado!
+    [SerializeField] bool PowerUp;
     void Start()
     {
-        
+        if(PowerUp == true)
+        {
+            print("Power-Up Coletado!");
+        }
+        else
+        {
+            print("Nenhum Power-up Coletado!");
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
