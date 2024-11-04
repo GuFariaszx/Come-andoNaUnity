@@ -1,15 +1,14 @@
 using UnityEngine;
 
-public class exercicio2 : MonoBehaviour
+public class Exercicio2 : MonoBehaviour
 {
-    // Exercício02
-    float velocidadePlayer;
-    [SerializeField] int power_up = 1;
-    string resultado;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (
+        
     }
+
+    // Update is called once per frame
     void Update()
     {
         
