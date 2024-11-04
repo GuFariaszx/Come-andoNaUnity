@@ -352,7 +352,7 @@ Transform:
   m_GameObject: {fileID: 65625698}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.69, y: 1.7, z: 0}
+  m_LocalPosition: {x: 1.48, y: 1.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2466,6 +2466,7 @@ GameObject:
   - component: {fileID: 1232738049}
   - component: {fileID: 1232738050}
   - component: {fileID: 1232738051}
+  - component: {fileID: 1232738052}
   m_Layer: 0
   m_Name: big_demon_idle_anim_f0
   m_TagString: Untagged
@@ -2633,7 +2634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaHeroi: 10
-  danoOponente: 5
+  hitRecebido: 5
 --- !u!114 &1232738051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,8 +2647,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054fd790e4611894fb0b98cfe4b7e2bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: 10
-  power_up: 1
+  PowerUp: 1
+--- !u!114 &1232738052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232738044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be182f91bf157f4396265b4184d5021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1235258593
 GameObject:
   m_ObjectHideFlags: 0
