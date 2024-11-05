@@ -24,11 +24,11 @@ public class Exercicio9 : MonoBehaviour
         {
             print("Um empate emocionante entre Palmeiras e Barcelona!!!");
         } 
-        if (resultadoA > resultadoB)
+        else if (resultadoA > resultadoB)
         {
             print("Vitória do Palmeiras");
         }
-        if(resultadoA < resultadoB) 
+        else if(resultadoA < resultadoB) 
         {
             print("Vitória do Barcelona");
         }
