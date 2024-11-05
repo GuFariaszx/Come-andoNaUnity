@@ -10,11 +10,11 @@ public class Exercício4 : MonoBehaviour
     //indisponível".
 
     [SerializeField] string itens;
-    [SerializeField] string poção;
+    [SerializeField] bool poção;
 
     void Start()
     {
-        itens = poção = true ? "Usando Poção de Vida" : "Poção Indisponível";
+        itens = poção ? "Usando Poção de Vida" : "Poção Indisponível";
         print(itens);
     }
 

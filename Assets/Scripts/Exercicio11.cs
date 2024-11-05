@@ -36,8 +36,12 @@ public class Exercicio11 : MonoBehaviour
             case 1:
                 print("Npc : Vai indo e você?");
                 break;
+            case 2:
+                print("Npc : Ahh, comigo está tudo ótimo, e com você?");
+                break;
+                  
         }
-        if (Npc2 == 1)
+        if (Npc2 == 1 || Npc2 == 2)
         {
             print(PlayerSay3);
         }
