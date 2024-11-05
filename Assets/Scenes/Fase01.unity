@@ -2467,6 +2467,12 @@ GameObject:
   - component: {fileID: 1232738050}
   - component: {fileID: 1232738051}
   - component: {fileID: 1232738052}
+  - component: {fileID: 1232738053}
+  - component: {fileID: 1232738054}
+  - component: {fileID: 1232738055}
+  - component: {fileID: 1232738056}
+  - component: {fileID: 1232738057}
+  - component: {fileID: 1232738058}
   m_Layer: 0
   m_Name: big_demon_idle_anim_f0
   m_TagString: Untagged
@@ -2619,8 +2625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25789ad4fe92dd444b47bb91ef9dce7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaHeroi: 100
-  vidaVilao: 300
+  estadoVilao: 2
 --- !u!114 &1232738050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2628,7 +2633,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232738044}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e232af6eca8c76147b4a0568eee12c36, type: 3}
   m_Name: 
@@ -2642,7 +2647,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232738044}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 054fd790e4611894fb0b98cfe4b7e2bb, type: 3}
   m_Name: 
@@ -2655,9 +2660,94 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232738044}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0be182f91bf157f4396265b4184d5021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vivoPlayer: 0
+  powerUp: 1
+--- !u!114 &1232738053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232738044}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fa488cd8a6ab9344883c07b2041e9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itens: 
+  "po\xE7\xE3o": 
+--- !u!114 &1232738054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232738044}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c4612c1c364764782acf3118f96372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "Pontua\xE7\xE3o": 50
+  Completar: 
+--- !u!114 &1232738055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232738044}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960ae14d8dbde0344bf6dce9f2aa0efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Guerreiro: 0
+  Mago: 0
+--- !u!114 &1232738056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232738044}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d756093fbde23d478656171dc8f1b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LadosDado: 20
+  valor_min: 1
+  valor_max: 20
+--- !u!114 &1232738057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232738044}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a76b60598d3950408d47cfd3298e4ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hora: 0
+  pulo: 0.1
+--- !u!114 &1232738058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232738044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fceacfcc611dad458433114f1c14ac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1235258593
