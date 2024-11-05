@@ -16,10 +16,15 @@ public class Exercicio6 : MonoBehaviour
         {
             print("Guerreiro Escolhido");
         }
-        else
+        else if (Mago == true) 
         {
             print("Mago escolhido");
         }
+        else
+        {
+            print("Erro! Por Favor escolha somente 1 personagem");
+        }
+
     }
 
     void Update()
