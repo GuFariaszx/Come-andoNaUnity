@@ -19,7 +19,7 @@ public class Exercicio9 : MonoBehaviour
     {
         resultadoA = UnityEngine.Random.Range(resultadoValorMax, resultadoValorMin);
         resultadoB = UnityEngine.Random.Range(resultadoValorMax, resultadoValorMin);
-        print("Palmeiras "+resultadoA+ " a " + resultadoB + " Barcelona");
+        print("Palmeiras "+resultadoA+ " - " + resultadoB + " Barcelona");
         if (resultadoA == resultadoB && resultadoA >= 3 && resultadoB >=3)
         {
             print("Um empate emocionante entre Palmeiras e Barcelona!!!");
