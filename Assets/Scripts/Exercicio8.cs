@@ -14,10 +14,11 @@ public class Exercicio8 : MonoBehaviour
     //número de dias que se passaram no console. (Coloque o código
     //dentro da função-evento Update).
 
-    [SerializeField] float Hora = 1.0f;
-    [SerializeField] float pulo = 0.1f;
-    float ciclo;
+    [SerializeField] int dias;
+    [SerializeField] int horas;
+    [SerializeField] float segundos;
 
+    
     void Start()
     {  
                 
@@ -25,6 +26,17 @@ public class Exercicio8 : MonoBehaviour
 
     void Update()
     {
-        
+        segundos += Time.deltaTime;
+        if (segundos >=10f)
+        {
+            horas++;
+            segundos = 0;
+            if (horas == 24)
+            {
+                dias++;
+                horas = 0;
+                print("JA se passaram "+dias + " dias");
+            }
+        }
     }
 }
