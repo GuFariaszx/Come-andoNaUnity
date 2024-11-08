@@ -1,0 +1,23 @@
+using UnityEngine;
+
+public class Exercício04 : MonoBehaviour
+{
+    //4. (Pontuação em combos) Cada combo realizado aumenta em 10
+    //pontos.Exiba a pontuação total após 7 combos.
+
+    [SerializeField] int combos = 0;
+    void Start()
+    {
+        for (int i = 0; i < 7; i++)
+        {
+            combos += 10;
+            print(combos);
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
