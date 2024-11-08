@@ -13,7 +13,6 @@ public class Exercicio7 : MonoBehaviour
     //Use a função abaixo para o cálculo: Random.Range (valor_min,
     //valor_max); (Coloque o código dentro da função-evento Start).
 
-    [SerializeField] int LadosDado = 20;
     [SerializeField] int valor_min = 1;
     [SerializeField] int valor_max = 20;
     int resultado;

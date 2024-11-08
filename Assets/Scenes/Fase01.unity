@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 65625701}
   - component: {fileID: 65625700}
   - component: {fileID: 65625699}
+  - component: {fileID: 65625703}
   m_Layer: 0
   m_Name: big_demon_idle_anim_f0 (1)
   m_TagString: Untagged
@@ -352,12 +353,24 @@ Transform:
   m_GameObject: {fileID: 65625698}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.48, y: 1.68, z: 0}
+  m_LocalPosition: {x: 2.32, y: 0.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &65625703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65625698}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2300c913ddcf3f41a6e9f84f76bd61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &119911411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,7 +2717,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232738044}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 960ae14d8dbde0344bf6dce9f2aa0efe, type: 3}
   m_Name: 
@@ -2723,7 +2736,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d756093fbde23d478656171dc8f1b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LadosDado: 20
   valor_min: 1
   valor_max: 20
 --- !u!114 &1232738057
@@ -2738,8 +2750,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a76b60598d3950408d47cfd3298e4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hora: 0
-  pulo: 0.1
+  dias: 0
+  horas: 0
+  segundos: 0
 --- !u!114 &1232738058
 MonoBehaviour:
   m_ObjectHideFlags: 0
