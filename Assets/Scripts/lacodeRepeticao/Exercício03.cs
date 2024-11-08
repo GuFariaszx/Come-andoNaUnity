@@ -13,7 +13,7 @@ public class Exercício03 : MonoBehaviour
         for (int i = 0; i < 10; i++)
         {
             moedas += 3;
-            print(moedas);
+            print("Você coletou "+moedas+ " moedas!!");
         }
     }
 

@@ -11,7 +11,7 @@ public class Exercício04 : MonoBehaviour
         for (int i = 0; i < 7; i++)
         {
             combos += 10;
-            print(combos);
+            print("Um total de "+combos+ " pontos!");
         }
     }
 
