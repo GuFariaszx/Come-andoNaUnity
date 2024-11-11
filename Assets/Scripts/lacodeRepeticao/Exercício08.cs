@@ -15,7 +15,7 @@ public class Exercício08 : MonoBehaviour
         {
            char word = nome[i];
            string letra = word.ToString();
-            inverter += letra;
+           inverter += letra;
             
         }
             print("A palavra "+ nome+ " invertido é : "+inverter);    
