@@ -20,11 +20,10 @@ public class Desafio02 : MonoBehaviour
 
         int anosVividos = (anoAtual - ano);
         int mesesVividos = (mesAtual - mes);
-        //int diasVividos = (anoAtual - anoRecebido) * 365 + (mesAtual - mesRecebido) * 30 + (diaAtual - diaRecebido);
         int diasVividos = (dia - diaAtual);
 
 
-        print("Anos vividos: " + anosVividos + "\n Meses vividos: " + mesesVividos + "\n Dias vividos: " + diasVividos);
+        print("Você viveu um total de : " + anosVividos+  " Anos" + "\n: " + mesesVividos +" meses" +"\n: " + diasVividos + " dias");
 
     }
 
