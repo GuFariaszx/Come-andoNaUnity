@@ -1,33 +1,36 @@
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class Desafio01 : MonoBehaviour
 {
     //Escreva um programa que conta o número de consoantes em uma string.
 
-    [SerializeField] string nome = "";
-    [SerializeField] int contadorCon;
+    [SerializeField] string texto = "JOGOS digitais";
+    [SerializeField] int contadorConsoantes;
 
-
-    char[] vogais = { 'a', 'e', 'i', 'o', 'u' };
     void Start()
     {
-        for (int i = nome.Length -1; i >= 0; i--)
+        //for(inicializador; condição; incremento ou decremento)
+        for (int i = 0; i < texto.Length; i++)
         {
-            char c = nome[i];
-            vogais.Contains(c);
-            if (!vogais.Contains(c))
+            char letra = texto[i];
+
+            if ("bcdfghjklmnpqrstvwxyz".Contains(char.ToLower(letra)))
             {
-                contadorCon++;
+                contadorConsoantes++;
             }
+
+            //(Errado) 
+            //if (!"aeiou".Contains(char.ToLower(letra)))
+            //{
+            //    contadorConsoantes++;
+            //}
         }
-        print(contadorCon);
+
+        print("O número de consoantes é: " + contadorConsoantes);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
